@@ -25,8 +25,7 @@ def get_weather(message):
                 f'<b>Temperature:</b> {temp} <b>°C (Feels like</b> {feels_like} <b>°C)</b>\n'
                 f'<b>Wind:</b> {wind} <b>mps</b>\n'
                 f'<b>Pressure:</b> {pressure} <b>mmHg</b>\n'
-                f'<b>Humidity:</b> {humidity}<b>%</b>\n'
-                f'<b>Developer: @lxpbs</b>',
+                f'<b>Humidity:</b> {humidity}<b>%</b>\n',
                 parse_mode='html'
                 )
     else:
